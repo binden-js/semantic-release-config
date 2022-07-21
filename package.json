@@ -1,0 +1,53 @@
+{
+  "name": "@binden/semantic-release-config",
+  "version": "1.0.0",
+  "description": "Shareable semantic-release config (based on Conventional Commits)",
+  "main": ".releaserc.json",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=18.6.0",
+    "npm": ">=8.13.2"
+  },
+  "scripts": {
+    "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
+    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "prepare": "husky install",
+    "prettier": "prettier -c .",
+    "prettier:write": "npm run prettier -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binden-js/semantic-release-config.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    "binden"
+  ],
+  "author": "Sergey Bakulin <sergey.bakulin.github@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binden-js/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/binden-js/semantic-release-config#readme",
+  "peerDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.3"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "commitlint": "^17.0.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "funding": {
+    "type": "Coinbase Commerce",
+    "url": "https://commerce.coinbase.com/checkout/eddfb0f7-20e7-4e0d-8e04-232bbdf0b397"
+  }
+}
