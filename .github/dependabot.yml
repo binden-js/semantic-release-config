@@ -3,6 +3,8 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: /
+    schedule:
+      interval: daily
     allow:
       - dependency-type: direct
     assignees:
@@ -16,6 +18,9 @@ updates:
       prefix-development: devDependencies
 
   - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
     assignees:
       - vansergen
     labels:
