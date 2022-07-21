@@ -1,0 +1,14 @@
+# GitHub directory
+.github
+
+# Commitlint config - https://commitlint.js.org/
+.commitlintrc.json
+
+# husky config - https://github.com/typicode/husky
+.husky
+
+# lint-staged config - https://github.com/okonet/lint-staged
+.lintstagedrc.json
+
+# Code of Conduct
+CODE_OF_CONDUCT.md
