@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://github.com/binden-js/semantic-release-config/compare/v1.0.0...v1.1.0) (2022-07-28)
+
+### Features
+
+- **git:** add the `docs` folder to the `assets` ([47389f2](https://github.com/binden-js/semantic-release-config/commit/47389f2436fc85ebcd6464ccea9818a074bf0312))
+
 ## 1.0.0 (2022-07-21)
 
 ### Features
