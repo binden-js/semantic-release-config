@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/binden-js/semantic-release-config/compare/v1.1.0...v1.1.1) (2022-09-04)
+
+### Dependencies
+
+- bump `semantic-release` from `19.0.3` to `19.0.5` ([bf6cb3d](https://github.com/binden-js/semantic-release-config/commit/bf6cb3d62bddb66497019813151af991e0419d4c))
+
 ## [1.1.0](https://github.com/binden-js/semantic-release-config/compare/v1.0.0...v1.1.0) (2022-07-28)
 
 ### Features

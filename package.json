@@ -1,6 +1,6 @@
 {
   "name": "@binden/semantic-release-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shareable semantic-release config (based on Conventional Commits)",
   "main": ".releaserc.json",
   "type": "commonjs",
