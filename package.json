@@ -11,7 +11,8 @@
   },
   "scripts": {
     "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
-    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "install:clean": "npm install",
+    "preinstall:clean": "rm -rf node_modules package-lock.json",
     "prepare": "husky install",
     "prettier": "prettier -c .",
     "prettier:write": "npm run prettier -- --write"
@@ -34,7 +35,7 @@
   "peerDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.3"
+    "semantic-release": "^19.0.5"
   },
   "devDependencies": {
     "@binden/commitlint-config": "^1.0.0",
