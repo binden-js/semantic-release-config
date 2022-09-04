@@ -29,6 +29,8 @@ jobs:
         run: npm publish --dry-run
 
   release:
+    if: ${{ github.ref == 'refs/heads/main' }}
+
     needs: [test]
 
     runs-on: ubuntu-latest
