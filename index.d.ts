@@ -18,7 +18,7 @@ declare const _default: {
       { type: "chore"; section: "Miscellaneous Chores"; hidden: true },
       { type: "refactor"; section: "Code Refactoring"; hidden: true },
       { type: "test"; section: "Tests"; hidden: true },
-      { type: "ci"; section: "Continuous Integration"; hidden: true }
+      { type: "ci"; section: "Continuous Integration"; hidden: true },
     ];
   };
   plugins: [
@@ -34,9 +34,9 @@ declare const _default: {
           { type: "build"; release: "patch" },
           { type: "initial"; release: "minor" },
           { type: "dependencies"; release: "patch" },
-          { type: "peerDependencies"; release: "patch" }
+          { type: "peerDependencies"; release: "patch" },
         ];
-      }
+      },
     ],
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", { changelogTitle: "# Changelog" }],
@@ -44,8 +44,8 @@ declare const _default: {
     "@semantic-release/github",
     [
       "@semantic-release/git",
-      { assets: ["CHANGELOG.md", "package.json", "package-lock.json", "docs"] }
-    ]
+      { assets: ["CHANGELOG.md", "package.json", "package-lock.json", "docs"] },
+    ],
   ];
 };
 
