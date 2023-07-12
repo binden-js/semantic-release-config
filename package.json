@@ -33,12 +33,12 @@
   },
   "homepage": "https://github.com/binden-js/semantic-release-config#readme",
   "peerDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^21.0.7"
   },
   "devDependencies": {
-    "@binden/commitlint-config": "^1.0.1",
+    "@binden/commitlint-config": "^1.0.2",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0"
