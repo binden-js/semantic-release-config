@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.0.0](https://github.com/binden-js/semantic-release-config/compare/v2.0.0...v3.0.0) (2024-01-28)
+
+### ⚠ BREAKING CHANGES
+
+- bump `semantic-release` from `v21.0.7` to `v23.0.0`
+- drop Node `<20` support
+
+### peerDependencies
+
+- bump `semantic-release` from `v21.0.7` to `v23.0.0` ([f1a7178](https://github.com/binden-js/semantic-release-config/commit/f1a71788e39f7d3d10591a64c3f17717dce787d8))
+
+### Bug Fixes
+
+- add the `hidden` property ([a73ddc9](https://github.com/binden-js/semantic-release-config/commit/a73ddc9293c4945c56190dc36300c26a129d4a33))
+
+### Performance Improvements
+
+- drop Node `<20` support ([24bf3f5](https://github.com/binden-js/semantic-release-config/commit/24bf3f5b50d266c81c018f36e69e66d979a7e6d5))
+
 ## [2.0.0](https://github.com/binden-js/semantic-release-config/compare/v1.1.1...v2.0.0) (2023-07-12)
 
 ### ⚠ BREAKING CHANGES
