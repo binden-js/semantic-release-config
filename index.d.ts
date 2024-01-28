@@ -3,14 +3,14 @@ declare const _default: {
   preset: "conventionalcommits";
   presetConfig: {
     types: [
-      { type: "feat"; section: "Features" },
-      { type: "fix"; section: "Bug Fixes" },
-      { type: "perf"; section: "Performance Improvements" },
-      { type: "revert"; section: "Reverts" },
-      { type: "build"; section: "Build System" },
-      { type: "initial"; section: "Initial" },
-      { type: "dependencies"; section: "Dependencies" },
-      { type: "peerDependencies"; section: "Peer dependencies" },
+      { type: "feat"; section: "Features"; hidden: false },
+      { type: "fix"; section: "Bug Fixes"; hidden: false },
+      { type: "perf"; section: "Performance Improvements"; hidden: false },
+      { type: "revert"; section: "Reverts"; hidden: false },
+      { type: "build"; section: "Build System"; hidden: false },
+      { type: "initial"; section: "Initial"; hidden: false },
+      { type: "dependencies"; section: "Dependencies"; hidden: false },
+      { type: "peerDependencies"; section: "Peer dependencies"; hidden: false },
       { type: "devDependencies"; section: "Dev dependencies"; hidden: true },
       { type: "metadata"; section: "Metadata"; hidden: true },
       { type: "docs"; section: "Documentation"; hidden: true },
