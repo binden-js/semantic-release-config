@@ -1,5 +1,13 @@
 # Changelog
 
+## <small>3.0.2 (2025-06-29)</small>
+
+- Merge pull request #87 from binden-js/dependabot/npm_and_yarn/lint-staged-16.1.2 ([8327c04](https://github.com/binden-js/semantic-release-config/commit/8327c04)), closes [#87](https://github.com/binden-js/semantic-release-config/issues/87)
+- Merge pull request #90 from binden-js/dependabot/npm_and_yarn/prettier-3.6.2 ([458489d](https://github.com/binden-js/semantic-release-config/commit/458489d)), closes [#90](https://github.com/binden-js/semantic-release-config/issues/90)
+- peerDependencies: bump `semantic-release` to `v24.2.6` ([1a24503](https://github.com/binden-js/semantic-release-config/commit/1a24503))
+- devDependencies: bump lint-staged from 15.5.1 to 16.1.2 ([fb4e4b3](https://github.com/binden-js/semantic-release-config/commit/fb4e4b3))
+- devDependencies: bump prettier from 3.5.3 to 3.6.2 ([5021492](https://github.com/binden-js/semantic-release-config/commit/5021492))
+
 ## <small>3.0.1 (2025-04-30)</small>
 
 - Merge pull request #46 from binden-js/dependabot/npm_and_yarn/binden/commitlint-config-2.0.0 ([37bf3e0](https://github.com/binden-js/semantic-release-config/commit/37bf3e0)), closes [#46](https://github.com/binden-js/semantic-release-config/issues/46)
