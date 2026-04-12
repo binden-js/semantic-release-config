@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>3.0.4 (2026-04-12)</small>
+
+- fix: pass presets to plugins directly ([f3c4667](https://github.com/binden-js/semantic-release-config/commit/f3c4667))
+- fix!: bump version ([c68f34e](https://github.com/binden-js/semantic-release-config/commit/c68f34e))
+
 ## <small>3.0.3 (2026-04-12)</small>
 
 - Merge pull request #100 from binden-js/dependabot/github_actions/actions/setup-node-6 ([6daa66e](https://github.com/binden-js/semantic-release-config/commit/6daa66e)), closes [#100](https://github.com/binden-js/semantic-release-config/issues/100)
