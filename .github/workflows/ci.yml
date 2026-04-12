@@ -25,8 +25,8 @@ jobs:
       - name: commitlint
         run: npm run commitlint
 
-      - name: Publish
-        run: npm publish --dry-run
+      - name: Pack
+        run: npm pack --dry-run
 
   release:
     if: ${{ github.ref == 'refs/heads/main' }}
