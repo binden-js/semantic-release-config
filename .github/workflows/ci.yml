@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           check-latest: true
 
       - name: Install dependencies
@@ -25,8 +25,8 @@ jobs:
       - name: commitlint
         run: npm run commitlint
 
-      - name: Publish
-        run: npm publish --dry-run
+      - name: Pack
+        run: npm pack --dry-run
 
   release:
     if: ${{ github.ref == 'refs/heads/main' }}
@@ -40,7 +40,7 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           check-latest: true
 
       - name: Import GPG key
