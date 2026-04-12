@@ -1,5 +1,18 @@
 # Changelog
 
+## <small>3.0.3 (2026-04-12)</small>
+
+- Merge pull request #100 from binden-js/dependabot/github_actions/actions/setup-node-6 ([6daa66e](https://github.com/binden-js/semantic-release-config/commit/6daa66e)), closes [#100](https://github.com/binden-js/semantic-release-config/issues/100)
+- Merge pull request #103 from binden-js/dependabot/npm_and_yarn/lint-staged-16.2.7 ([f53fcb8](https://github.com/binden-js/semantic-release-config/commit/f53fcb8)), closes [#103](https://github.com/binden-js/semantic-release-config/issues/103)
+- Merge pull request #104 from binden-js/dependabot/github_actions/actions/checkout-6 ([e470536](https://github.com/binden-js/semantic-release-config/commit/e470536)), closes [#104](https://github.com/binden-js/semantic-release-config/issues/104)
+- Merge pull request #109 from binden-js/dependabot/npm_and_yarn/prettier-3.8.1 ([07114cb](https://github.com/binden-js/semantic-release-config/commit/07114cb)), closes [#109](https://github.com/binden-js/semantic-release-config/issues/109)
+- perf!: drop Node.js <24 support ([d8caa5c](https://github.com/binden-js/semantic-release-config/commit/d8caa5c))
+- peerDependencies: bump semantic-release to v25 ([7a2021b](https://github.com/binden-js/semantic-release-config/commit/7a2021b))
+- devDependencies: bump lint-staged from 16.1.2 to 16.2.7 ([06a70c4](https://github.com/binden-js/semantic-release-config/commit/06a70c4))
+- devDependencies: bump prettier from 3.6.2 to 3.8.1 ([d29726d](https://github.com/binden-js/semantic-release-config/commit/d29726d))
+- ci: bump actions/checkout from 4 to 6 ([cc6009e](https://github.com/binden-js/semantic-release-config/commit/cc6009e))
+- ci: bump actions/setup-node from 4 to 6 ([17ec06d](https://github.com/binden-js/semantic-release-config/commit/17ec06d))
+
 ## <small>3.0.2 (2025-06-29)</small>
 
 - Merge pull request #87 from binden-js/dependabot/npm_and_yarn/lint-staged-16.1.2 ([8327c04](https://github.com/binden-js/semantic-release-config/commit/8327c04)), closes [#87](https://github.com/binden-js/semantic-release-config/issues/87)
