@@ -6,8 +6,8 @@
   "type": "commonjs",
   "types": "index.d.ts",
   "engines": {
-    "node": ">=22.15.0",
-    "npm": ">=10.9.2"
+    "node": ">=24.14.1",
+    "npm": ">=11.11.0"
   },
   "scripts": {
     "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
@@ -40,8 +40,8 @@
   "devDependencies": {
     "@binden/commitlint-config": "^2.1.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "prettier": "^3.8.1"
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.6.2"
   },
   "publishConfig": {
     "access": "public"
