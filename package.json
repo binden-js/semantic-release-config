@@ -40,7 +40,7 @@
   "devDependencies": {
     "@binden/commitlint-config": "^3.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.4",
+    "lint-staged": "^17.4.1",
     "prettier": "^3.9.6"
   },
   "publishConfig": {
